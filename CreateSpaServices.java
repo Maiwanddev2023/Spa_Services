@@ -24,7 +24,10 @@ public class CreateSpaServices
 
 		// Keyboard buffer for the scanner object
 		keyboard.nextLine();*/
-		
+		System.out.print("Please enter name of service >>");
+		service = keyboard.nextLine();
+		System.out.print("Please enter the price of that service >> ");
+		price = keyboard.nextDouble();
 		System.out.print("Next, please enter the name of a second service >> ");
 		service = keyboard.nextLine();
 		System.out.print("Please enter the price of that service >> ");
